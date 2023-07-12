@@ -1,0 +1,12 @@
+@import "styles/_variables.scss";
+
+.linkList{
+    display: flex;
+    justify-content: center;
+    margin-right: -24px;
+    padding: 24px 0;
+    @media screen and (min-width:$min_desktop){
+    padding: 80px 0;
+    margin-right: -64px;
+    }
+}

@@ -1,0 +1,45 @@
+@import 'styles/_variables.scss';
+
+.aboutUsContainer {
+  height: auto;
+  background: #C06936;
+  color: white;
+  padding: 0 4.87%;
+  padding-top: 80px;
+  @media screen and (min-width:$min_tablet){
+    padding: 0 2.15%;
+  }
+  @media screen and (min-width:$min_desktop){
+    padding: 0 5.56%;
+  }
+  
+  h2{
+    font-family: Sansita;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.2em;
+    text-align: right;
+    margin-bottom: 24px;
+    @media screen and (min-width: $min_tablet){
+      font-size: 32px;
+      line-height: 45px;
+    }
+    @media screen and (min-width: $min_desktop){
+      font-size: 64px;
+      line-height: 90px;
+      margin-bottom: 64px;
+    }
+  }
+  p{
+    font-size: 16px;
+    line-height: 140.1%;
+    text-transform: uppercase;
+    @media screen and (min-width:$min_tablet){
+      font-size: 20px;
+    }
+    @media screen and (min-width:$min_desktop){
+      font-size: 32px;
+    }
+  }
+}
